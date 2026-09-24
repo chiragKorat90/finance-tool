@@ -101,6 +101,7 @@ import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
 import { ThemeProvider } from "next-themes";
 import Script from "next/script";
+import BannerAd from "@/app/components/BannerAd";
 
 import { Toaster } from "react-hot-toast";
 
@@ -119,6 +120,7 @@ export default function RootLayout({
       <head suppressHydrationWarning>
         <meta name="monetag" content="7bfd0e1d7eaa7ea9b2cdd67eeba99ff1"/>
         <Script src="https://quge5.com/88/tag.min.js" data-zone="285722" async data-cfasync="false" />
+        <BannerAd />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
