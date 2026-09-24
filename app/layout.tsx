@@ -118,6 +118,7 @@ export default function RootLayout({
     >
       <head suppressHydrationWarning>
         <meta name="referrer" content="no-referrer-when-downgrade" />
+        <meta name="monetag" content="7bfd0e1d7eaa7ea9b2cdd67eeba99ff1"/>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
